@@ -67,4 +67,15 @@ public class Main {
     public static boolean isEqual(int num1, int num2) {
         return num1 == num2;
     }
+
+
+
+    /*
+    Inches to Feet
+    - Create a function that accepts a measurement value in inches and returns the equivalent of the measurement value in feet.
+     */
+
+    public static int convert(int inches) {
+        return inches * 12;
+    }
 }
