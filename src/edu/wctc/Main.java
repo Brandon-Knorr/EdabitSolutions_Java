@@ -56,4 +56,15 @@ public class Main {
         int total = w + d + l;
         return total;
     }
+
+
+
+    /*
+    Are the Numbers Equal?
+    - Create a function that takes two integers and checks if they are equal.
+     */
+
+    public static boolean isEqual(int num1, int num2) {
+        return num1 == num2;
+    }
 }
